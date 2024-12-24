@@ -1,7 +1,3 @@
-Here's a `README.md` file for your project that outlines the steps to clone the repository, install dependencies, run the test cases, and test the function by creating an `index.ts` file.
-
----
-
 # String Calculator - TDD Kata
 
 This project is a simple implementation of the **String Calculator Kata** using **Test-Driven Development (TDD)** in **TypeScript**. The calculator can handle comma-separated numbers, newlines as delimiters, custom delimiters, and more, while ensuring the code is robust and well-tested.
@@ -13,7 +9,7 @@ This project is a simple implementation of the **String Calculator Kata** using 
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/string-calculator.git
+git clone https://github.com/pneha2296/string-calculator.git
 cd string-calculator
 ```
 
