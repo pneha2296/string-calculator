@@ -59,7 +59,7 @@ If you want to test the calculator functionality in isolation, you can create an
    // src/index.ts
    import { add } from './calculator';
 
-   const result = add("1,2,3\n4,5");
+   const result = add("1,2,3\n4,5"); //you can change your inputs
    console.log("Result:", result); // Should print: Result: 15
    ```
 
