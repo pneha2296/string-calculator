@@ -83,14 +83,30 @@ If you want to test the calculator functionality in isolation, you can create an
 
    This will execute the code and output the result, which in this case would be `15`.
 
-### 5. **How to Add More Test Cases**
+### 5. **Test Cases**
+In this assignment, we have covered the following test cases:
+
+1. **Empty String** - Verifies that the calculator returns 0 for an empty input.
+2. **Single Number** - Verifies that the calculator returns the number itself for a single number.
+3. **Two Numbers** - Verifies that the calculator returns the sum of two numbers separated by a comma.
+4. **Multiple Numbers** - Verifies that the calculator can handle multiple numbers separated by commas.
+5. **Newline as Delimiter** - Verifies that the calculator can handle newlines as delimiters in addition to commas.
+6. **Custom Single-Character Delimiter** - Verifies that the calculator can handle a custom single-character delimiter (e.g., ;).
+7. **Custom Multi-Character Delimiter** - Verifies that the calculator can handle custom multi-character delimiters (e.g., ***).
+8. **Negative Numbers** - Verifies that the calculator throws an exception when negative numbers are passed in the input.
+9. **Non-Numeric Values** - Verifies that the calculator ignores non-numeric values in the input.
+10. **Numbers Greater Than 1000** - Verifies that the calculator ignores numbers greater than 1000.
+
+These test cases ensure that the basic functionality and edge cases of the calculator are covered.
+
+### 6. **How to Add More Test Cases**
 
 To add more test cases or features, follow these steps:
 
 1. **Write the test cases** in the `tests/calculator.test.ts` file, using the format provided for the existing test cases.
 2. **Run the tests** using `npm test` to make sure your code works as expected.
 
-### 6. **Project Structure**
+### 7. **Project Structure**
 
 Here’s a quick overview of the project structure:
 
